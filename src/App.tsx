@@ -14,7 +14,7 @@ function App() {
       title: "SMA System (Legacy Engineering)",
       description: "Sistema de gestão Desktop para ONGs (TCC). Construído com arquitetura MVC pura, Java Swing e acesso a dados via JDBC/DAO, demonstrando fundamentos sólidos de Engenharia de Software sem frameworks.",
       tags: ["Java 8", "Swing", "MVC", "PostgreSQL", "JDBC"],
-      link: "https://github.com/mewtoex/sma",
+      link: "https://github.com/mewtoex/SMASystem",
       icon: <Code2 className="w-10 h-10 text-red-500" />
     }
   ];
