@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Terminal, Database, Bot, ExternalLink, Code2 } from 'lucide-react';
+import { Github, Linkedin, Mail, Terminal, Database, Bot, ExternalLink, Code2, ShoppingBag } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 function App() {
@@ -9,6 +9,13 @@ function App() {
       tags: [".NET 8", "React", "PostgreSQL", "Docker", "n8n", "AI"],
       link: "https://github.com/mewtoex/finance-project",
       icon: <Bot className="w-10 h-10 text-purple-400" />
+    },
+    {
+      title: "Pedidos Já (Microservices Ecosystem)",
+      description: "Plataforma de delivery altamente escalável com arquitetura de microsserviços (.NET e Node.js) sob um API Gateway. Segurança robusta com autenticação JWT, Refresh Tokens e RBAC (Role-Based Access Control). Utiliza MongoDB, RabbitMQ para mensageria e WebSockets para tempo real. Solução full-stack com Frontend (React), App Mobile (React Native) e gamificação. Totalmente conteinerizado (Docker Compose), com testes (Unit/Int/E2E) e CI/CD via GitLab para deploy no CasaOS.",
+      tags: ["Microservices", ".NET 8", "MongoDB", "JWT/RBAC", "RabbitMQ", "React Native", "Docker", "GitLab CI/CD"],
+      link: "https://github.com/mewtoex/pedidos-ja",
+      icon: <ShoppingBag className="w-10 h-10 text-orange-500" />
     },
     {
       title: "SMA System (Legacy Engineering)",
