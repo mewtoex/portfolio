@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Terminal, Database, Bot, ExternalLink, Code2, ShoppingBag } from 'lucide-react';
+import { Github, Linkedin, Mail, Terminal, Database, Bot, ExternalLink, Code2, ShoppingBag, Zap } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 function App() {
@@ -16,6 +16,13 @@ function App() {
       tags: ["Microservices", ".NET 8", "MongoDB", "JWT/RBAC", "RabbitMQ", "React Native", "Docker", "GitLab CI/CD"],
       link: "https://github.com/mewtoex/pedidos-ja",
       icon: <ShoppingBag className="w-10 h-10 text-orange-500" />
+    },
+    {
+      title: "Eletro System (Gestão de Energia)",
+      description: "Ecossistema para gestão e análise de consumo elétrico. Backend de alta performance em .NET com MongoDB e serviço auxiliar conteinerizado em Docker. O aplicativo móvel cross-platform foi construído em React Native (Expo). Conta com pipeline completo de CI/CD via GitHub Actions para testes e build automatizado do APK.",
+      tags: [".NET", "React Native", "MongoDB", "Docker", "GitHub Actions", "Expo"],
+      link: "https://github.com/mewtoex/eletro-api",
+      icon: <Zap className="w-10 h-10 text-yellow-400" />
     },
     {
       title: "SMA System (Legacy Engineering)",
