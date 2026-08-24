@@ -1,8 +1,15 @@
-import { Github, Linkedin, Mail, Terminal, Database, Bot, ExternalLink, Code2, ShoppingBag, Zap } from 'lucide-react';
+import { Github, Linkedin, Mail, Terminal, Database, Bot, ExternalLink, Code2, ShoppingBag, Zap, PawPrint } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 function App() {
   const projects = [
+    {
+      title: "PetFoodCalculator (Alimentação Pet)",
+      description: "Aplicação full stack para acompanhamento da alimentação de cães e gatos. Calcula recomendações alimentares, registra refeições e pesagens e gerencia o estoque de ração, com autenticação segura, testes automatizados e observabilidade.",
+      tags: [".NET 8", "React", "TypeScript", "PostgreSQL", "Docker", "JWT", "Testcontainers"],
+      link: "https://github.com/mewtoex/PetFoodCalculator.Api",
+      icon: <PawPrint className="w-10 h-10 text-emerald-400" />
+    },
     {
       title: "Finance Ecosystem (Home Lab)",
       description: "Sistema financeiro completo e auto-hospedado. Utiliza IA (Groq) para ler comprovantes e n8n para automação via Telegram.",
