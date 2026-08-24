@@ -67,13 +67,13 @@ function App() {
           </h1>
 
           <p className="text-xl text-slate-400 max-w-2xl leading-relaxed">
-            Full Stack Developer  <br />
+            Desenvolvedor C#/.NET <br />
           </p>
 
           <div className="flex gap-4 mt-8">
             <SocialLink href="https://github.com/mewtoex" icon={<Github />} label="GitHub" />
             <SocialLink href="https://www.linkedin.com/in/whanderson-andrade/" icon={<Linkedin />} label="LinkedIn" />
-            <SocialLink href="mailto:whanderson@egmail.com" icon={<Mail />} label="Email" />
+            <SocialLink href="mailto:whandersonba75@gmail.com" icon={<Mail />} label="Email" />
           </div>
         </motion.div>
       </header>
