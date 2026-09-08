@@ -1,8 +1,15 @@
-import { Github, Linkedin, Mail, Terminal, Database, Bot, ExternalLink, Code2, ShoppingBag, Zap, PawPrint } from 'lucide-react';
+import { Github, Linkedin, Mail, Terminal, Database, Bot, ExternalLink, Code2, ShoppingBag, Zap, PawPrint, Wrench } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 function App() {
   const projects = [
+    {
+      title: "Gestão de Ordens de Serviço",
+      description: "API REST para gestão completa de ordens de serviço, clientes, técnicos, serviços e peças. Possui controle de acesso por perfil, fluxo de status, histórico de auditoria, relatórios mensais e geração de comprovantes em PDF.",
+      tags: [".NET 8", "ASP.NET Core", "SQL Server", "Entity Framework", "JWT/RBAC", "Docker", "GitHub Actions"],
+      link: "https://github.com/mewtoex/ordensServico",
+      icon: <Wrench className="w-10 h-10 text-cyan-400" />
+    },
     {
       title: "PetFoodCalculator (Alimentação Pet)",
       description: "Aplicação full stack para acompanhamento da alimentação de cães e gatos. Calcula recomendações alimentares, registra refeições e pesagens e gerencia o estoque de ração, com autenticação segura, testes automatizados e observabilidade.",
